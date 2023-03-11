@@ -1,0 +1,25 @@
+ pwd
+ mkdir lol_2
+ cd lol_2
+ mkdir pap_1 pap_2 pap_3
+ cd pap_1
+ touch 1.txt 2.txt 3.txt 4.json 5.json
+ mkdir pap_4 pap_5 pap_6
+ ls -la
+ cat >> 1.txt
+ cd ..
+ mv 4.json pap_4
+ mv 5.json pap_4
+ cd pap_4
+ cd ..
+ cp pap_4/4.json pap_5/4.json
+ cp pap_4/5.json pap_5/5.json
+ find . -name 5.json
+ grep -r cold 
+ head -n3 1.txt
+ tail -n1 1.txt
+ less 1.txt
+ date
+ date -u
+ curl http://162.55.220.72:5005
+ history

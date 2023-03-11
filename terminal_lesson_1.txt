@@ -1,6 +1,0 @@
-cd
-mkdir
-touch
-vim
-pwd
-rm
